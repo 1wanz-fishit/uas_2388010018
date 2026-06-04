@@ -4,4 +4,6 @@ services:
     build: .
     ports:
       - "80:80"
+    volumes:
+      - .:/var/www/html # Folder default untuk image php:apache
     restart: always
