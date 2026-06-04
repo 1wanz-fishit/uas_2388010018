@@ -1,0 +1,7 @@
+services:
+  web-statis:
+    image: 1wanzscret/uas-static_2388010018:latest
+    build: .
+    ports:
+      - "80:80"
+    restart: always
