@@ -1,7 +1,7 @@
 name: Docker Build and Push
 
 on:
-  # Akan berjalan otomatis setiap ada push ke branch main atau master
+  # Akan berjalan otomatis setiap ada push ke branch main atau master 
   push:
     branches: [ "main", "master" ]
   # Bisa dijalankan manual lewat tombol di GitHub Actions
