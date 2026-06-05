@@ -95,9 +95,9 @@ try {
                 WELCOME TO THE ESPORT GAMES
             </div>
             <h1 class="hero-title text-6xl md:text-8xl lg:text-9xl font-black mb-2 tracking-wider">
-                <span class="text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400">Irwan</span><span class="text-transparent bg-clip-text bg-gradient-to-b from-cyan-300 to-blue-600">mutholib_2388010018</span>
+                <span class="text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400">Irwan</span><span class="text-transparent bg-clip-text bg-gradient-to-b from-cyan-300 to-blue-600">mutholib</span>
             </h1>
-            <h2 class="hero-title-2 text-2xl md:text-4xl font-bold text-slate-300 mb-8 tracking-[0.2em] uppercase">E-Sports game</h2>
+            <h2 class="hero-title-2 text-2xl md:text-4xl font-bold text-slate-300 mb-8 tracking-[0.2em] uppercase">E-Sports</h2>
             <p class="hero-subtitle text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto font-medium leading-relaxed">
                 Forging champions in the digital arena. Witness the synergy of skill, strategy, and cutting-edge performance.
             </p>
