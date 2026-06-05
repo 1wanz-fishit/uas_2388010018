@@ -92,10 +92,10 @@ try {
         <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#07070a] z-10 pointer-events-none"></div>
         <div class="z-20 text-center px-4">
             <div class="hero-badge inline-block mb-6 border border-cyan-500/50 bg-cyan-500/10 text-cyan-300 px-4 py-1 rounded-full text-sm font-bold tracking-widest backdrop-blur-sm">
-                WELCOME TO THE ESPORT GAME
+                WELCOME TO THE ESPORT GAMES
             </div>
             <h1 class="hero-title text-6xl md:text-8xl lg:text-9xl font-black mb-2 tracking-wider">
-                <span class="text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400">Irwan</span><span class="text-transparent bg-clip-text bg-gradient-to-b from-cyan-300 to-blue-600">mutholib</span>
+                <span class="text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400">Irwan</span><span class="text-transparent bg-clip-text bg-gradient-to-b from-cyan-300 to-blue-600">mutholib_2388010018</span>
             </h1>
             <h2 class="hero-title-2 text-2xl md:text-4xl font-bold text-slate-300 mb-8 tracking-[0.2em] uppercase">E-Sports game</h2>
             <p class="hero-subtitle text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto font-medium leading-relaxed">
