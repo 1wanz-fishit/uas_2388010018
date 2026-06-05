@@ -11,6 +11,9 @@ services:
       - DB_USER=root
       - DB_PASS=rootpassword
     volumes:
+      # Memaksa Docker menggunakan file dari folder lokalmu
+      - .:/var/www/html
+      # Mempertahankan penyimpanan file upload
       - uploads_data:/var/www/html/uploads
     depends_on:
       - db

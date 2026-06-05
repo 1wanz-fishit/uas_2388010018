@@ -16,7 +16,7 @@ try {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEXUS - High-End E-Sports</title>
+    <title>Irwan Mutholib_2388010018 - High-End E-Sports</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
@@ -92,12 +92,12 @@ try {
         <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#07070a] z-10 pointer-events-none"></div>
         <div class="z-20 text-center px-4">
             <div class="hero-badge inline-block mb-6 border border-cyan-500/50 bg-cyan-500/10 text-cyan-300 px-4 py-1 rounded-full text-sm font-bold tracking-widest backdrop-blur-sm">
-                WELCOME TO THE NEXT LEVEL
+                WELCOME TO THE ESPORT GAME
             </div>
             <h1 class="hero-title text-6xl md:text-8xl lg:text-9xl font-black mb-2 tracking-wider">
-                <span class="text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400">NE</span><span class="text-transparent bg-clip-text bg-gradient-to-b from-cyan-300 to-blue-600">XUS</span>
+                <span class="text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400">Irwan</span><span class="text-transparent bg-clip-text bg-gradient-to-b from-cyan-300 to-blue-600">mutholib</span>
             </h1>
-            <h2 class="hero-title-2 text-2xl md:text-4xl font-bold text-slate-300 mb-8 tracking-[0.2em] uppercase">E-Sports Organization</h2>
+            <h2 class="hero-title-2 text-2xl md:text-4xl font-bold text-slate-300 mb-8 tracking-[0.2em] uppercase">E-Sports game</h2>
             <p class="hero-subtitle text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto font-medium leading-relaxed">
                 Forging champions in the digital arena. Witness the synergy of skill, strategy, and cutting-edge performance.
             </p>
@@ -221,8 +221,8 @@ try {
     </section>
 
     <footer class="py-12 text-center mt-10 relative z-20 border-t border-slate-800/80 bg-black/40 backdrop-blur-sm">
-        <h2 class="text-2xl font-black text-slate-600 tracking-widest mb-4">NEXUS</h2>
-        <p class="text-slate-500 font-medium tracking-wide">&copy; <?= date('Y') ?> NEXUS Esports. All systems online.</p>
+        <h2 class="text-2xl font-black text-slate-600 tracking-widest mb-4">Irwan Mutholib_2388010018</h2>
+        <p class="text-slate-500 font-medium tracking-wide">&copy; <?= date('Y') ?> Website Irwan Mutholib..</p>
     </footer>
 
     <!-- Animations Implementation -->
