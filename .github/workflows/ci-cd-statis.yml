@@ -1,0 +1,54 @@
+name: CI/CD Pipeline Web Statis
+
+on:
+  push:
+    branches: [ "main", "master" ]
+    paths:
+      - 'web-statis/**'
+      - '.github/workflows/ci-cd-statis.yml'
+  workflow_dispatch:
+
+jobs:
+  build-and-delivery:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./web-statis
+          push: true
+          tags: 1wanzscret/uas-static_2388010018:latest
+
+      - name: Delivery (SCP) to AWS EC2
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.AWS_HOST }}
+          username: ${{ secrets.AWS_USERNAME }}
+          key: ${{ secrets.AWS_PRIVATE_KEY }}
+          source: "web-statis/*"
+          target: "~/deploy"
+
+      - name: Deploy via SSH to AWS EC2
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.AWS_HOST }}
+          username: ${{ secrets.AWS_USERNAME }}
+          key: ${{ secrets.AWS_PRIVATE_KEY }}
+          script: |
+            cd ~/deploy/web-statis
+            # Mengambil update image terbaru
+            docker compose pull
+            # Menjalankan container dengan build ulang jika diperlukan
+            docker compose up -d
