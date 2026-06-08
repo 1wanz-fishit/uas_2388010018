@@ -85,7 +85,7 @@ if (isset($_SESSION['admin_logged_in'])) {
             <!-- Header -->
             <div class="flex flex-col md:flex-row justify-between items-center mb-8 glass p-6 rounded-2xl border-l-4 border-l-cyan-400">
                 <div class="mb-4 md:mb-0 text-center md:text-left">
-                    <h1 class="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 tracking-wider heading-font">COMMAND CENTER</h1>
+                    <h1 class="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 tracking-wider heading-font">Irwan Mutholib-2388010018</h1>
                     <p class="text-slate-400 mt-1 font-bold">Manage your E-Sport Assets with full CRUD capability</p>
                 </div>
                 <a href="?logout=1" class="border border-red-500/50 text-red-400 hover:bg-red-500 hover:text-white px-6 py-2 rounded-lg font-bold transition-all shadow-[0_0_10px_rgba(239,68,68,0.2)]">TERMINATE SESSION</a>
